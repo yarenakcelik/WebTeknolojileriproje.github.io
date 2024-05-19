@@ -1,0 +1,230 @@
+.logo {
+    height: 50px;
+}
+
+.dropdown-menu {
+    background-color: #343a40; /* Navbar'ın arka plan rengini buraya ekleyin */
+}
+.dropdown-item {
+    color: white; /* Yazı rengini beyaz yap */
+}
+.dropdown-item:hover {
+    background-color: #495057; /* Üzerine gelindiğinde farklı bir arka plan rengi */
+}
+.navbar-brand img {
+    max-width: 100%;
+    height: auto;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: rgba(49, 55, 51, 0.7);
+    color: white;
+}
+.contact-info {
+    margin-top: 20px;
+}
+/*.ust-kisim {
+background-image: url(mm6.avif);
+height: 100vh;
+width: 100%; 
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+overflow-y: auto; /* Sayfa boyunca kaydırma çubuğunu görünür yapar 
+z-index: 0; /* Navbar ve diğer içeriklerin üstüne çıkmasını sağlar 
+}
+
+.ust-kisim-sayfalar {
+    background-image: url(mm6.avif);
+    height: 100vh;
+    width: 100%; 
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+    }*/
+    .ust-kisim,
+.ust-kisim-sayfalar {
+    background-image: url(mm6.avif);
+    height: 100vh;
+    width: 100%; 
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-y: auto; /* Sayfa boyunca kaydırma çubuğunu görünür yapar */
+    z-index: 0; /* Navbar ve diğer içeriklerin üstüne çıkmasını sağlar */
+    position: fixed; /* Arka planın sabit kalması için */
+}
+    .color-sayfa {
+        color:rgb(236, 228, 228);
+    }
+    .color-baslik {
+        color:rgb(198, 203, 190);
+    }
+    .card {
+        margin-top: 20px; /* Kartın üst boşluğu */
+        margin-right: 20px; /* Kartın sağ boşluğu */
+      }
+
+      .spor
+      {
+        width: 900px;
+        margin:auto;
+        }
+
+        .sola-kaydir{
+        float:left;
+        padding:0 10px 10px 0;
+        }
+        .saga-kaydir{
+            float:right;
+            padding:0 10px 10px 0;
+        }
+/*ANASAYFA*/
+
+.carousel-item img {
+height: 500px;
+width: 20%;
+}
+.carousel-fullscreen {
+    width: 100vw;
+    height: 100vh;
+}
+
+/*İletişim*/
+
+ 
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+ 
+body {
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    font-size: 13px;
+    line-height: 30px;
+    color: #888;
+    background: #79A7A8;
+}
+ 
+.container {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+ 
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea,
+#contact button[type="submit"] {
+    font: 500 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+ 
+#contact {
+    background: #F9F9F9;
+    padding: 25px;
+    margin: 100px 0;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+ 
+#contact h2 {
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+ 
+.form-control{
+    border: none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+ 
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+}
+ 
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact textarea:hover {
+    -webkit-transition: border-color 0.4s ease-in-out;
+    -moz-transition: border-color 0.4s ease-in-out;
+    transition: border-color 0.4s ease-in-out;
+    border: 1px solid #aaa;
+}
+ 
+#contact textarea {
+    height: 120px;
+    max-width: 100%;
+    resize: none;
+}
+ 
+#contact button[type="submit"] {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: #79A7A8;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+ 
+#contact button[type="submit"]:hover {
+    background: #355C7D;
+    -webkit-transition: background 0.4s ease-in-out;
+    -moz-transition: background 0.4s ease-in-out;
+    transition: background-color 0.4s ease-in-out;
+}
+ 
+#contact button[type="submit"]:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+ 
+#contact input:focus,
+#contact textarea:focus {
+    outline: 0;
+    border: 1px solid #aaa;}
+
+   /*özgeçmiş*/
+
+   .card-oz {
+    background-color: rgba(49, 55, 51, 0.7);
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-oz header, .card-oz section, .card-oz footer {
+    text-align: center;
+    width: 100%;
+}
+
+.card-oz ul {
+    list-style: none;
+    padding: 0;}
